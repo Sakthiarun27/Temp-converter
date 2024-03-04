@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    width: 50px;
+    width: 25rem;
+    height: 22rem;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 38%;
+    border-radius: 20px;
+    border: 2px solid rgb(120, 120, 213);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.content h2{
+    margin-top: 10%;
+}
+
+.content .head1{
+    color: rgb(101, 101, 202);
+
+}
+
+.content input{
+    margin-top: 5px;
+}
+.content select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content label{
+    margin-top: 25px;
+}
+
+/* .result{
+    margin-top: 35px;
+} */
+
+label{
+    font-size: 20px;
+}
+
+.content input,select{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+
+/* .content input:focus, select:focus {
+    
+} */
+
+
+button{
+    margin-top: 25px;
+    padding: 10px 0 10px 0;
+    width: 50%;
+    border: none;
+    background-color: rgb(120, 120, 213);
+    font-size: 15px;
+}
+
+button:hover{
+    text-decoration: underline;
+    background-color: white;
+    border: 2px solid ;
+    border-color: rgb(120, 120, 213);
+}   
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    text-align: center;
+    gap: 10px;
+
+}
+
+
+

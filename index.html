@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h2 class="heading"><span class="head1">T</span>emperature <span class="head1">C</span>onverter</h2>
+            <form>
+            <label for="degree">Degree</label>
+            <input id="degree" type="number" required>
+            <label for="type">Type</label>
+            <select id="type">
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <div id="result"></div>
+            <div class="btn">
+            <button onclick="result(event)">Calculate</button>
+            <button>Reset</button>
+        </div>
+        
+        </form>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+
+</html>
